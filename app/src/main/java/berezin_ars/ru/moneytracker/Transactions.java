@@ -3,8 +3,8 @@ package berezin_ars.ru.moneytracker;
 
 public class Transactions {
 
-    private String title;
-    private String sum;
+    public String title;
+    public String sum;
 
     public Transactions(String title, String sum){
         this.title = title;
